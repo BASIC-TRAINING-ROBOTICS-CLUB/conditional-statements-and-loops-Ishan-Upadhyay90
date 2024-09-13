@@ -6,9 +6,9 @@ long long int fact(int n){
     return n*fact(n-1);
 }
 int main(){
-    long long int f;
+    int f;
     printf("Enter the number\n");
     scanf("%d",&f);
-    printf("Factorial = %ld",fact(f));
+    printf("Factorial = %lld",fact(f));
     return 0;
 }
